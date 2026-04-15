@@ -7,7 +7,7 @@ import Booking from './pages/Booking';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/Travel-with-pandit-ji">
       <div className="flex flex-col min-h-screen bg-slate-50 text-slate-900 font-sans">
         <Navbar />
         <main className="flex-grow">

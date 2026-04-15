@@ -7,7 +7,7 @@ const Hero = () => {
         initial={{ scale: 1.2, opacity: 0 }}
         animate={{ scale: 1, opacity: 0.6 }}
         transition={{ duration: 1.5, ease: 'easeOut' }}
-        className="absolute inset-0 z-0 bg-[url('https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')] bg-cover bg-center"
+        className="absolute inset-0 z-0 bg-[url('https://picsum.photos/seed/hero/2000/1000')] bg-cover bg-center"
       />
       
       <div className="absolute inset-0 z-10 bg-gradient-to-b from-transparent to-slate-900/90" />
